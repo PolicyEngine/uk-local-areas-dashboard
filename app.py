@@ -9,9 +9,9 @@ import numpy as np
 import plotly.express as px
 from typing import Callable
 
-st.title("Where do I fit on the income distribution?")
+st.title("Where does my local area rank?")
 
-st.write("This app allows you to see where you fit on the income distribution in the UK, your local constituency, and your local authority.")
+st.write("This app allows you to see where your local area fits in the distribution of various economic and social indicators in the UK. You can select your local area from the dropdown below and see how it compares to the rest of the UK in terms of poverty rates, income, income inequality, and government balances.")
 
 @st.cache_resource
 def get_simulation():
